@@ -1,17 +1,53 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      trouver un livreure
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<!-- List of Text Items -->
+<ion-list>
+  <ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <ion-label>choisir la ville</ion-label>
+    <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+      <ion-select-option value="brown">berkane</ion-select-option>
+      <ion-select-option value="blonde">oujda</ion-select-option>
+      <ion-select-option value="black">taourit</ion-select-option>
+      <ion-select-option value="red">saidia</ion-select-option>
+      <ion-select-option value="red">taza</ion-select-option>
+      <ion-select-option value="red">laioun</ion-select-option>
+      <ion-select-option value="red">jerada</ion-select-option>
+      <ion-select-option value="red">casa</ion-select-option>
+      <ion-select-option value="red">fes</ion-select-option>
+      <ion-select-option value="red">rabat</ion-select-option>
+      <ion-select-option value="red">tanger</ion-select-option>
+      <ion-select-option value="red">tetouane</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+
+    <ion-label>choisir la quartier</ion-label>
+    <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+      <ion-select-option value="brown">quods</ion-select-option>
+      <ion-select-option value="blonde">andalous</ion-select-option>
+      <ion-select-option value="black">lazari</ion-select-option>
+      <ion-select-option value="red">bouarfa</ion-select-option>
+      <ion-select-option value="red">kenzi</ion-select-option>
+      <ion-select-option value="red">doha</ion-select-option>
+ 
+
+    </ion-select>
+
+
+<div style="height: 50px; display:block"></div>
+  </ion-item>
+</ion-list>
+<ion-item>
+
+  <ion-button onclick="location.href='./res'" block>chercher</ion-button>
+</ion-item>
+
 </ion-content>
